@@ -1,0 +1,47 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 15px;
+	padding: 20px 0px;
+	margin-bottom: 30px;
+	.header__list {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+
+		@media (max-width: 620px) {
+			display: none;
+		}
+
+		.header__item {
+			text-transform: uppercase;
+			a {
+				color: #000000;
+			}
+		}
+	}
+
+	.burger {
+		display: none;
+		font-size: 28px;
+		cursor: pointer;
+
+		@media (max-width: 620px) {
+			display: block;
+		}
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		.username {
+			font-weight: 600;
+			color: #0026ff;
+		}
+		.exit {
+			cursor: pointer;
+		}
+	}
+}

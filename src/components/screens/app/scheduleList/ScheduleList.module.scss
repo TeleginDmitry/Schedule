@@ -1,0 +1,10 @@
+.list {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	width: 100%;
+
+	@media (max-width: 600px) {
+		justify-content: center;
+	}
+}

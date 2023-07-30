@@ -1,0 +1,21 @@
+.sidebar__list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 100%;
+	padding: 20px;
+	.sidebar__item {
+		text-transform: uppercase;
+		a {
+			color: #ffffff;
+		}
+	}
+
+	.cancel {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		font-size: 25px;
+		color: #fff;
+	}
+}
